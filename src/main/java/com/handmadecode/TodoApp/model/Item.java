@@ -3,7 +3,9 @@ import java.util.Date;
 import lombok.*;
 
 @AllArgsConstructor @NoArgsConstructor
+//@Data
 @Getter @Setter
+//@Builder
 public class Item {
     private String id;
     private String title;
