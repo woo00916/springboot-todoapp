@@ -2,6 +2,7 @@ package com.handmadecode.TodoApp.service;
 
 import com.handmadecode.TodoApp.model.Item;
 import org.springframework.stereotype.Service;
+//import org.springframework.beans.factory.annotation.Autowired;
 
 @Service //spring boot에 service라는 것을 알려주는 어노테이션
 public class ItemService {
@@ -9,7 +10,8 @@ public class ItemService {
     public Item get(final String id){
         //가져온다
 
-        return new Item.builder().title("connect to db...").build();//lombok @builder를 쓰면 new 가 필요없넹
+        return new Item.builder().title("connect to db...").build();//lombok @builder를 쓰면 new 가 필요없네
+
     }
 
 }

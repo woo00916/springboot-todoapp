@@ -5,7 +5,7 @@ import lombok.*;
 @AllArgsConstructor @NoArgsConstructor
 //@Data
 @Getter @Setter
-//@Builder
+@Builder
 public class Item {
     private String id;
     private String title;
